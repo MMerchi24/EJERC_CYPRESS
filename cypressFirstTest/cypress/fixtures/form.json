@@ -1,0 +1,31 @@
+[
+    {
+      "scenarioName": "scenario 1",
+      "name": "Javier Flores",
+      "email": "javier.flores@quark-techie.com",
+      "queryType": "General",
+      "dob": "2024-01-01"
+    },
+    {
+      "scenarioName": "scenario 2",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "queryType": "Technical",
+      "dob": "2023-05-15"
+    },
+    {
+      "scenarioName": "scenario 3",
+      "name": "notEmail",
+      "email": "",
+      "queryType": "Technical",
+      "dob": "2023-07-15"
+    },
+    {
+      "scenarioName": "scenario 4",
+      "name": "",
+      "email": "notName@mail.com",
+      "queryType": "Technical",
+      "dob": "2023-07-15"
+    }
+]
+  

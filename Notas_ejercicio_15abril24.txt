@@ -1,0 +1,27 @@
+CYPRESS, ejercicios lunes 15 abril:
+
+1.Crea una carpeta "CypressFirstTest"
+2,Abrimos Visual estudio y abrimos nueva carpeta.
+3.Una vez abierta, abrimos la consola (nuevo terminal) e inicializamos el proyecto  con el comando "npm init -y"
+   (El comando "npm init -y" nos va a crear nuestro archivo de configuración de cypress .js )
+4.Instalamos las dependencias de cypress con el comando "npm install cypress --save-dev
+5.Abrimos cypress  con el comando "npx cypress --version
+   (Aquí nos dice la versión que tenemos- y al dárnosla vemos que todo está instalado correctamente).
+6.Abrimos cypress entonces con el comando "npx cypress open"
+   (Se abre una nueva ventana de cypress donde elegiremos la opción E2E y la que queramos)
+7.Elegimos la opción E2E Testing haciendo click cobre ella.
+8.Click en continuar (continuar con todo lo que hay)
+9.Seleccionamos el explorador que queramos, en mi caso elegimos Chrome
+10.Click en "Start E2E Testing in Chrome
+11.Hacemos click en "Create new spec"
+12.Dejaremos el nombre por defecto y hacemos click en "Create spec"
+  (Esto nos crea una prueba con extensión .js, y nos aparecerá como spec.cy.js)
+  -Si hacemos click sobre él, el código de la prueba nos aparecerá así:
+
+describe('template spec', () => {
+  it('passes', () => {
+    cy.visit('www.amazon.es')  <------------Aquí podemos poner la web que queramos visitar como ejemplo amazon.
+  })
+})
+
+13.Hacemos click en "okay, run the spec"
